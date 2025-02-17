@@ -1,4 +1,4 @@
-# neverthrow-safe-re
+# neverthrow-safe-ret
 ** Type-safe error handling with Go-style tuple returns for neverthrow **
 
 This library extends [`neverthrow`](https://github.com/supermacro/neverthrow) to provide a **Go-inspired error-handling pattern** while maintaining strict type safety. If you’ve ever wanted to destructure a `Result` into a `[error, value]` tuple *without losing type information*, this is for you.
