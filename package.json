@@ -1,28 +1,34 @@
 {
   "name": "neverthrow-safe-ret",
   "version": "1.0.1",
-  "description": "Adds safeRet() functionality to Ok & Err",
+  "description": "Adds safeRet() to Ok, Err and provides async safeRet for ResultAsync & Promise<Result>",
   "main": "dist/index.js",
-  "types": "types.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vekexasia/neverthrow-saferet.git"
+    "url": "git+https://github.com/vekexasia/neverthrow-safe-ret.git"
   },
   "keywords": [
     "neverthrow",
     "functional",
     "error",
-    "fp"
+    "error-handling",
+    "fp",
+    "async",
+    "resultasync",
+    "go-style",
+    "tuple",
+    "safe-ret"
   ],
   "author": "Andrea Baccega",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vekexasia/neverthrow-saferet/issues"
+    "url": "https://github.com/vekexasia/neverthrow-safe-ret/issues"
   },
-  "homepage": "https://github.com/vekexasia/neverthrow-saferet#readme",
+  "homepage": "https://github.com/vekexasia/neverthrow-safe-ret#readme",
   "devDependencies": {
     "typescript": "^5.7.3",
     "neverthrow": "^8.0.0"
